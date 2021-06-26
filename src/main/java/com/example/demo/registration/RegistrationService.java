@@ -18,7 +18,7 @@ public class RegistrationService {
             throw new IllegalStateException("Email is not valid");
         }
         return appUserService.signUpUser(
-                new AppUser();
+                new AppUser()
         );
     }
 }
